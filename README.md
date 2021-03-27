@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vnsnippets/vnsnippets/master/programming.png" alt="Banners that shows a programmer with a bunch of screens.">
+<img src="https://raw.githubusercontent.com/vnsnippets/vnsnippets/master/images/programming.png" alt="Banners that shows a programmer with a bunch of screens.">
 
 <!--
 **vnsnippets/vnsnippets** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
