@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vnsnippets/vnsnippets/master/images/programming.png" alt="Banners that shows a programmer with a bunch of screens.">
+<img src="https://img.shields.io/static/v1?label=🟧&message=COMING SOON&color=critical&style=for-the-badge" alt="badge that says coming soon">
 
 <!--
 **vnsnippets/vnsnippets** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+👾 Hang tight.<br/>
+🐱‍🐉 Something is coming here soon.<br/>
+🐱‍💻 I would suggest sticking around.
