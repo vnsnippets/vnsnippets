@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/static/v1?label=🟧&message=COMING SOON&color=critical&style=for-the-badge" alt="badge that says coming soon">
+<img src="https://img.shields.io/static/v1?label=&message=COMING%20SOON&color=critical&style=for-the-badge" alt="badge that says coming soon">
 
 <!--
 **vnsnippets/vnsnippets** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
