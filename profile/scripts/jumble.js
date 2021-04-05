@@ -2,15 +2,15 @@ const TEXTS = {
    main: [
       "Greetings. I'm Vidush H. Namah 🐱‍💻",
       "I'm a software craftsman.",
-      "I make stuff in my free time.",
+      "I'm a maker in my free time.",
       "I'm a design and tech enthusiast.",
       "Stick around for the ride 🐱‍🐉"
    ],
    sub: [
       "Welcome to my playground.",
-      "Full Stack with a bit of spice.",
-      "Arduino, Python, ESP8266/32, Raspberry Pi.",
-      "A blank file hath potential deep as a white canvas",
+      "Full Stack with a touch of spice.",
+      "Python, Arduino, ESP8266/32, Raspberry Pi.",
+      "And I like doodling too.",
       "Follow me on Twitter: @VHNamah"
    ]
 }
@@ -84,24 +84,26 @@ class Messenger {
       m.animateOut = function () {
          var msg = m.messages[m.message];
          var nextMsgIndex = m.message + 1;
-         if (nextMsgIndex < m.messages.length) {
 
-            var nextMsg = m.messages[nextMsgIndex];
-            var trimmedMsg = msg.substr(0, m.current_length);
-            var trimmedNextMsg = nextMsg.substr(0, m.current_length);
+         if (nextMsgIndex >= m.messages.length) {
+            nextMsgIndex = 0;
+         }
 
-            if (trimmedMsg != trimmedNextMsg && m.current_length > 0) {
-               m.current_length = m.current_length - 1;
-               var message = msg.substr(0, m.current_length);
+         var nextMsg = m.messages[nextMsgIndex];
+         var trimmedMsg = msg.substr(0, m.current_length);
+         var trimmedNextMsg = nextMsg.substr(0, m.current_length);
 
-               $(el).html(message);
-               setTimeout(m.animateOut, m.animateOutTimeSplit());
-            } else {
-               $('.cursor').hide();
+         if (trimmedMsg != trimmedNextMsg && m.current_length > 0) {
+            m.current_length = m.current_length - 1;
+            var message = msg.substr(0, m.current_length);
 
-               m.leftover = trimmedMsg;
-               m.cycleText();
-            }
+            $(el).html(message);
+            setTimeout(m.animateOut, m.animateOutTimeSplit());
+         } else {
+            $('.cursor').hide();
+            m.leftover = trimmedMsg;
+
+            m.cycleText();
          }
       };
 
@@ -132,7 +134,7 @@ class Messenger {
          if (do_cycles === true) {
             setTimeout(m.animateFadeBuffer, m.animateInTimeSplit());
          } else {
-            setTimeout(m.animateOut, time.static);
+            setTimeout(m.animateOut, (m.message == m.messages.length-1) ? time.static*1.5 : time.static);
          }
       };
 
