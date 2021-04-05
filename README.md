@@ -17,7 +17,22 @@
 🟩 List my tech stack<br/>
 🟩 Links to social media<br/>
 ⬜ Add call to action (or a joke 👾)<br/>
+
+## Let's Connect!
+[![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
+[![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 -->
+<br/>
+<div style="text-align:center;">
+   <h2>CONNECT</h2>
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
+      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" />
+   </a>
+   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow">
+      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;" />
+   </a>
+</div>
+<br/>
 
 ### Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
@@ -34,11 +49,6 @@
 
 ### Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
-
-## Let's Connect!
-[![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
-[![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
-
 
 <!-- LINKS -->
 <!-- Languages -->
@@ -124,6 +134,6 @@
 [gitbook]: https://img.shields.io/badge/-Gitbook-%231d2229?style=for-the-badge&logo=gitbook
 
 <!-- Social Media -->
-[twitter]: https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter
+[twitter]: https://img.shields.io/badge/-Twitter-%23011627?style=for-the-badge&logo=twitter
 
-[instagram]: https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram
+[instagram]: https://img.shields.io/badge/-Instagram-%23011627?style=for-the-badge&logo=instagram
