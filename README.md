@@ -2,7 +2,6 @@
     <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
-<br/>
 
 <!-- TO BE REMOVED
 <img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
