@@ -1,5 +1,5 @@
 <picture>
-    <source media="(min-aspect-ratio: 1/1)" srcset="./assets/cover-dark-landscape.gif">
+    <source media="(orientation:landscape)" srcset="./assets/cover-dark-landscape.gif">
     <img style="width: 100%" src="./assets/cover-dark-portrait.gif" alt="animation for a quick intro">
 </picture>
 <br/>
