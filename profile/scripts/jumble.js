@@ -82,6 +82,7 @@ class Messenger {
       };
 
       m.animateOut = function () {
+         if (m.current_length == 1) $('.cursor').hide();
          var msg = m.messages[m.message];
          var nextMsgIndex = m.message + 1;
 
@@ -149,7 +150,7 @@ class Messenger {
          m.complete = true;
          //$(el).html('');
          if (m.watch.complete) {
-            setTimeout(m.animateIn, 200);
+            setTimeout(m.animateIn, (m.message == 0) ? time.static*0.5 : 200);
             setTimeout(m.watch.animateIn, 200);
          }
       };
@@ -157,6 +158,19 @@ class Messenger {
 }
 
 $(document).ready(function () {
+   var dark = false;
+
+   $('body').css('color', !dark ? '#1d1e22' : '#fff');
+   $('body').css('background-color', !dark ? '#fff' : '#1d1e22');
+   $('.cursor').css('background-color', !dark ? 'rgba(0,0,0,0.5)' : 'rgba(255,255,255,0.75)');
+
+   $('body').on('click', function() {
+      $('body').css('color', dark ? '#1d1e22' : '#fff');
+      $('body').css('background-color', dark ? '#fff' : '#1d1e22');
+      $('.cursor').css('background-color', dark ? 'rgba(0,0,0,0.5)' : 'rgba(255,255,255,0.75)');
+      dark = !dark;
+   })
+
    const textAnimation = new Messenger($('#main'), TEXTS.main, TIMINGS);
    const subtextAnimation = new Messenger($('#sub'), TEXTS.sub, TIMINGS);
 

@@ -1,3 +1,5 @@
+$shapewidth: 2px;
+
 $colors: (
   purple: #241379,
   medium-blue: #2185bf,
@@ -41,6 +43,9 @@ body {
   height: 100vh;
   font-family: 'New Tegomin', monospace;
   // animation: fadeInOut ease 20s infinite;
+  font-family: "New Tegomin", monospace;
+  color: #FFF;
+  background-color: #1d1e22;
   
   &:active {
     .particle,
@@ -98,7 +103,7 @@ body {
   .#{$color-name} {
     $size: random-num(5,50) + px;
     animation: #{$color-name} linear 30s alternate infinite;
-    border: 1px solid #{$color-hex};
+    border: $shapewidth solid #{$color-hex};
     border-radius: 100%;
     width: $size;
     height: $size;
@@ -112,7 +117,7 @@ body {
   .#{$color-name}::before {
     animation: #{$color-name}-pseudo linear 15s alternate infinite;
     // background: #{$color-hex};
-    border: 1px solid #{$color-hex};
+    border: $shapewidth solid #{$color-hex};
     width: random-num(5,50) + px;
     height: random-num(5,50) + px;
     transform:
@@ -125,7 +130,7 @@ body {
 
   .#{$color-name}::after{
     animation: #{$color-name}-pseudo linear 20s alternate infinite;
-    border: 1px solid #{$color-hex};
+    border: $shapewidth solid #{$color-hex};
     width: random-num(5,50) + px;
     height: random-num(5,50) + px;
     transform:
@@ -172,7 +177,6 @@ body {
 }
 
 .wrapper {
-  color: #1d1e22;
   position: absolute;
   z-index: 100;
   opacity: 1;
@@ -211,7 +215,7 @@ body {
 }
 
 .cursor {
-  background-color: #1d1e2275;
+  background-color: #FFFFFF75;
   animation: 1s blink step-end infinite;
 }
 
