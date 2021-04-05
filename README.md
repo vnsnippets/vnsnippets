@@ -7,7 +7,7 @@
    <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow"><img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" /></a>
    <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
 </p>
-
+<br/>
 
 ### 🔥 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
@@ -16,13 +16,13 @@
 ![Bootstrap][bootstrap] ![Tailwind CSS][tailwind] <br/>
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
-
+<br/>
 
 ### ⚔ Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
-
+<br/>
 
 ### 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
