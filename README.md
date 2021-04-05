@@ -4,11 +4,12 @@
 </picture>
 <p align="center">
    <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
-      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%23011627?style=for-the-badge&logo=twitter" style="max-width:100%;" />
+      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" />
    </a>
    <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow">
-      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%23011627?style=for-the-badge&logo=instagram" />
+      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" />
    </a>
+   <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
 </p>
 
 <!-- TO BE REMOVED
