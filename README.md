@@ -8,25 +8,6 @@
    <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
 </p>
 
-<!-- TO BE REMOVED
-<img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
-
-🐱‍💻 I would suggest sticking around.
-<br/>
-
-#### PROGRESS TRACKER
-> [⬜ Pending] [🟦 In-progress] [🟩 Complete]
-
-🟩 Created GIF animated cover image<br/>
-⬜ Write a brief about me<br/>
-🟩 List my tech stack<br/>
-🟩 Links to social media<br/>
-⬜ Add call to action (or a joke 👾)<br/>
-
-### 🐾 Let's Connect
-[![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
-[![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
--->
 
 ### 🔥 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
@@ -45,6 +26,7 @@
 
 ### 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
+
 
 <!-- LINKS -->
 <!-- Languages -->
