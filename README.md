@@ -22,18 +22,13 @@
 
 ### Languages
 <img alt="C#" src="https://img.shields.io/badge/-C%23-black?style=for-the-badge&logo=c-sharp"/> <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript"/> <img alt="NodeJs" src="https://img.shields.io/badge/-Node.JS-black?style=for-the-badge&logo=node.js"/>
-
 <img alt="HTML5" src="https://img.shields.io/badge/-HTML-black?style=for-the-badge&logo=html5"/> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3"/> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript"/>
-
 <img alt="Python" src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python"/>
 
 ### Frameworks
 <img alt=".NET Standard" src="https://img.shields.io/badge/-.NET Standard-black?style=for-the-badge&logo=.net"/> <img alt=".NET Core" src="https://img.shields.io/badge/-.NET Core-black?style=for-the-badge&logo=.net"/>
-
 <img alt="Xamarin" src="https://img.shields.io/badge/-Xamarin Forms-black?style=for-the-badge&logo=xamarin"/> <img alt="React Native" src="https://img.shields.io/badge/-React Native-black?style=for-the-badge&logo=react"/> <img alt="UWP" src="https://img.shields.io/badge/-UWP-black?style=for-the-badge&logo=microsoft"/>
-
 <img alt="React" src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react"/> <img alt="NextJS" src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logo=next.js"/> <img alt="VueJS" src="https://img.shields.io/badge/-Vue.JS-black?style=for-the-badge&logo=vue.js"/> <img alt="NuxtJS" src="https://img.shields.io/badge/-Nuxt.JS-black?style=for-the-badge&logo=nuxt.js"/> <img alt="Express" src="https://img.shields.io/badge/-ExpressJS-black?style=for-the-badge&logo=express"/>
-
 <img alt="Django" src="https://img.shields.io/badge/-Django-black?style=for-the-badge&logo=django"/>
 
 ### UI Frameworks
@@ -41,7 +36,6 @@
 
 ### Cloud and Infrastructure
 <img alt="Microsoft Azure" src="https://img.shields.io/badge/-Microsoft Azure-black?style=for-the-badge&logo=microsoft-azure"/> <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logo=firebase"/>
-
 <img alt="SQL Server" src="https://img.shields.io/badge/-SQL Server-black?style=for-the-badge&logo=microsoft-sql-server"/> <img alt="Firestore" src="https://img.shields.io/badge/-Firestore-black?style=for-the-badge&logo=firebase"/> <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb"/>
 
 ### Version Control
