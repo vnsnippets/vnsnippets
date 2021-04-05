@@ -1,6 +1,6 @@
 <picture>
     <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
-    <img style="width: 100%" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
+    <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
 <br/>
 
