@@ -1,7 +1,6 @@
 <picture>
     <source media="(min-aspect-ratio: 1/1)" srcset="./assets/cover-dark-landscape.gif">
-    <source media="(min-aspect-ratio: 1/1000)" srcset="./assets/cover-dark-portrait.gif">
-    <img style="width: 100%" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
+    <img style="width: 100%" src="./assets/cover-dark-portrait.gif" alt="animation for a quick intro">
 </picture>
 <br/>
 
@@ -20,7 +19,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <br/>
-<img src="https://img.shields.io/static/v1?label=&message=UNDER CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
+<img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
 <br/>
 
 🐱‍💻 I would suggest sticking around.
