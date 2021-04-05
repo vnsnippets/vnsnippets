@@ -18,9 +18,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<br/>
+
 <img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
-<br/>
 
 🐱‍💻 I would suggest sticking around.
 <br/>
