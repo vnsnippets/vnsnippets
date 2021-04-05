@@ -1,3 +1,12 @@
+<div style="align:center;text-align:center;">
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow" style="align:center;text-align:center;">
+      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;align:center;text-align:center;" />
+   </a>
+   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow" style="align:center;text-align:center;">
+      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;align:center;text-align:center;" />
+   </a>
+</div>
+
 <picture>
     <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
@@ -9,7 +18,7 @@
 🐱‍💻 I would suggest sticking around.
 <br/>
 
-##### PROGRESS TRACKER
+### PROGRESS TRACKER
 > [⬜ Pending] [🟦 In-progress] [🟩 Complete]
 
 🟩 Created GIF animated cover image<br/>
@@ -22,7 +31,7 @@
 [![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 
-### 👾 Skills Unlocked
+## 👾 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
 ![.NET Standard][.net] ![.NET Core][.net-core] ![ReactJs][react] ![NextJs][nextjs] ![VueJs][vue] ![NuxtJs][nuxtjs] ![ExpressJs][express] ![Django][django] <br/>
 ![React Native][react-native] ![Xamarin Forms][xamarin] ![UWP][uwp] <br/>
@@ -30,12 +39,12 @@
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
 
-### ⚔ Weapons of Choice
+## ⚔ Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
 
-### 📚 Scrolls of Wisdom
+## 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
 
 <!-- LINKS -->
