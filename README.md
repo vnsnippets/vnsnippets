@@ -22,17 +22,15 @@
 [![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 -->
-<br/>
-<div style="display: flex;align-items: center;justify-content: center;">
-   <h2 style="text-align:center;">CONNECT</h2>
-   <div>
-      <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow" style="text-align:center;">
-         <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" />
-      </a>
-      <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow" style="text-align:center;">
-         <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;" />
-      </a>
-   </div>
+
+<div style="align:center">
+   <h2 style="align:center;">CONNECT</h2>
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow" style="align:center;">
+      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;align:center;" />
+   </a>
+   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow" style="align:center;">
+      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;align:center;" />
+   </a>
 </div>
 <br/>
 
