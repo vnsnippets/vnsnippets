@@ -3,12 +3,7 @@
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
 <p align="center">
-   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
-      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" />
-   </a>
-   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow">
-      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" />
-   </a>
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow"><img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" /></a><a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow"><img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" /></a>
    <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
 </p>
 
