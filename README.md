@@ -37,8 +37,8 @@
 ![Markdown][md] ![Gitbook][gitbook]
 
 ## Let's Connect
-[![Twitter Link][twitter]](https://twitter.com/VHNamah)
-[![Instagram Link][instagram]](https://instagram.com/vnsnippets)
+[![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
+[![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 
 
 <!-- LINKS -->
