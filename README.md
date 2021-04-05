@@ -22,7 +22,6 @@
 
 ### Languages
 <img alt="C#" src="https://img.shields.io/badge/-C%23-black?style=for-the-badge&logo=c-sharp"/>
-
 <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript"/>
 
 <img alt="NodeJs" src="https://img.shields.io/badge/-Node.JS-black?style=for-the-badge&logo=node.js"/>
