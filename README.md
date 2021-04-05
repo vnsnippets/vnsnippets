@@ -24,11 +24,11 @@
 -->
 <br/>
 <div style="text-align:center;">
-   <h2>CONNECT</h2>
-   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
+   <h2 style="text-align:center;">CONNECT</h2>
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow" style="text-align:center;">
       <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" />
    </a>
-   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow">
+   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow" style="text-align:center;">
       <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;" />
    </a>
 </div>
