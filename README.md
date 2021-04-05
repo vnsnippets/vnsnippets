@@ -28,7 +28,7 @@
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 -->
 
-## 👾 Skills Unlocked
+## 🔥 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
 ![.NET Standard][.net] ![.NET Core][.net-core] ![ReactJs][react] ![NextJs][nextjs] ![VueJs][vue] ![NuxtJs][nuxtjs] ![ExpressJs][express] ![Django][django] <br/>
 ![React Native][react-native] ![Xamarin Forms][xamarin] ![UWP][uwp] <br/>
