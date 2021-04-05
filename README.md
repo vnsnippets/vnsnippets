@@ -1,5 +1,5 @@
 <picture>
-    <source media="(min-width: 1000px) and (min-height: 1000px)" srcset="./assets/cover-dark-landscape.gif">
+    <source media="(min-width: 1000px and min-height: 1000px)" srcset="./assets/cover-dark-landscape.gif">
     <img style="width: 100%" src="./assets/cover-dark-portrait.gif" alt="animation for a quick intro">
 </picture>
 <br/>
