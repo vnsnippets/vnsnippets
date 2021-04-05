@@ -2,7 +2,7 @@
     <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
-<p style="align:center;">
+<p align="center">
    <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
       <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%23011627?style=for-the-badge&logo=twitter" style="max-width:100%;" />
    </a>
