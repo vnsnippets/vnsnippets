@@ -4,7 +4,7 @@
 </picture>
 <br/>
 
-<!-- TO BE REMOVED -->
+<!-- TO BE REMOVED
 <img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
 
 🐱‍💻 I would suggest sticking around.
@@ -18,9 +18,9 @@
 🟩 List my tech stack<br/>
 🟩 Links to social media<br/>
 ⬜ Add call to action (or a joke 👾)<br/>
-<!-- TO BE REMOVED -->
+-->
 
-### Technology
+### Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
 ![.NET Standard][.net] ![.NET Core][.net-core] ![ReactJs][react] ![NextJs][nextjs] ![VueJs][vue] ![NuxtJs][nuxtjs] ![ExpressJs][express] ![Django][django] <br/>
 ![React Native][react-native] ![Xamarin Forms][xamarin] ![UWP][uwp] <br/>
@@ -28,15 +28,15 @@
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
 
-### Tools of Choice
+### Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
 
-### Documentation
+### Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
 
-## Let's Connect
+## Let's Connect!
 [![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 
