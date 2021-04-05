@@ -16,13 +16,13 @@
 ![Bootstrap][bootstrap] ![Tailwind CSS][tailwind] <br/>
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
-<br/>
+<br/><br/>
 
 ### ⚔ Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
-<br/>
+<br/><br/>
 
 ### 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
