@@ -14,7 +14,7 @@
 🐱‍💻 I would suggest sticking around.
 <br/>
 
-### PROGRESS TRACKER
+#### PROGRESS TRACKER
 > [⬜ Pending] [🟦 In-progress] [🟩 Complete]
 
 🟩 Created GIF animated cover image<br/>
@@ -23,12 +23,12 @@
 🟩 Links to social media<br/>
 ⬜ Add call to action (or a joke 👾)<br/>
 
-## 🐾 Let's Connect
+### 🐾 Let's Connect
 [![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
 -->
 
-## 🔥 Skills Unlocked
+### 🔥 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
 ![.NET Standard][.net] ![.NET Core][.net-core] ![ReactJs][react] ![NextJs][nextjs] ![VueJs][vue] ![NuxtJs][nuxtjs] ![ExpressJs][express] ![Django][django] <br/>
 ![React Native][react-native] ![Xamarin Forms][xamarin] ![UWP][uwp] <br/>
@@ -36,12 +36,12 @@
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
 
-## ⚔ Weapons of Choice
+### ⚔ Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
 
-## 📚 Scrolls of Wisdom
+### 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
 
 <!-- LINKS -->
