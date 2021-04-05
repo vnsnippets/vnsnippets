@@ -36,10 +36,12 @@
 ![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
 ![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
 
+
 ### ⚔ Weapons of Choice
 ![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
 ![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
 ![AdobeXD][adobexd] ![Canva][canva]
+
 
 ### 📚 Scrolls of Wisdom
 ![Markdown][md] ![Gitbook][gitbook]
