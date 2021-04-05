@@ -1,16 +1,15 @@
-<div style="align:center;text-align:center;">
-   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow" style="align:center;text-align:center;">
-      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;align:center;text-align:center;" />
-   </a>
-   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow" style="align:center;text-align:center;">
-      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" style="max-width:100%;align:center;text-align:center;" />
-   </a>
-</div>
-
 <picture>
     <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
+<p style="align:center;">
+   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow">
+      <img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%23011627?style=for-the-badge&logo=twitter" style="max-width:100%;" />
+   </a>
+   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow">
+      <img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%23011627?style=for-the-badge&logo=instagram" />
+   </a>
+</p>
 
 <!-- TO BE REMOVED
 <img src="https://img.shields.io/static/v1?label=&message=UNDER%20CONSTRUCTION&color=critical&style=for-the-badge" alt="badge that says coming soon">
@@ -26,10 +25,11 @@
 🟩 List my tech stack<br/>
 🟩 Links to social media<br/>
 ⬜ Add call to action (or a joke 👾)<br/>
--->
+
 ## 🐾 Let's Connect
 [![Twitter Link][twitter]](https://twitter.com/VHNamah "Twitter")
 [![Instagram Link][instagram]](https://instagram.com/vnsnippets "Instagram")
+-->
 
 ## 👾 Skills Unlocked
 ![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
