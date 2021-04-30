@@ -13,27 +13,43 @@ const metadata = [];
 const HandleArticleDirectory = (e) => {
    if (!e || !e.path || e.path === INDEX_FILE_PATH) return;
 
-   fetch.get(URL(e.path), options)
-      .then((response) => {
-         const data = response.json();
-         data.forEach((item) => metadata.push(item.name))
-
+   AwaitableHttpsRequest(URL(e.path), options)
+      .then((data) => {
          console.log(`Directory - ${item.name} :: ${data.length}`)
+         data.forEach((item) => metadata.push(item.name));
       });
 }
 
 const Execute = () => {
-   fetch.get(URL(ARTICLES_PATH), options)
-      .then((response) => {
-         const data = response.json();
+   AwaitableHttpsRequest(URL(ARTICLES_PATH), options)
+      .then((data) => {
+         data.forEach(HandleArticleDirectory)
 
-         data.forEach(HandleArticleDirectory);
-         console.log("Metadata update complete.");
-      });
+         fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
+            if (err) throw err;
+         });
+      })
 
-   fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
-      if (err) throw err;
-   });
 }
+
+const AwaitableHttpsRequest = (url, options) => new Promise((resolve, reject) => {
+   const request = https.get(url, options, (response) => {
+      response.setEncoding('utf8');
+      
+      let data = "";
+      response.on('data', (e) => data += e);
+
+      response.on('end', () => {
+         resolve(JSON.parse(data))
+      });
+   });
+
+   request.on('error', (err) => {
+      reject(err);
+    });
+
+    request.write(data)
+    request.end();
+});
 
 Execute();
