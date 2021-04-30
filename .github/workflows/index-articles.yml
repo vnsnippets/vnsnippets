@@ -1,0 +1,42 @@
+name: Update Articles Index
+
+on:
+  push:
+    branches: [ master ]
+    paths: [ data/articles/** ]
+    
+  pull_request:
+    branches: [ master ]
+    paths: [ data/articles/** ]
+
+  workflow_dispatch:
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        
+      - name: Setup Node JS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm install
+      - run: npm run build --if-present
+      
+      # Run custom script to update articles index
+      - name: Update articles index
+        run: |-
+          node ./scripts/update-articles-index.js
+      
+      # Commit changes and push (if any)
+      - name: Commit and Push
+        run: |-
+          git diff
+          git config --global user.email "workflow@vnsnippets.noreply.com"
+          git config --global user.name "Github Workflow"
+          git add -A
+          git commit -m "Updated articles index" || exit 0
+          git push
