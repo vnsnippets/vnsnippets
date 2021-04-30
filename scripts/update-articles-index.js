@@ -12,7 +12,7 @@ var options = {
 const metadata = [];
 
 const HandleArticleDirectory = (e) => {
-   if (!e || !e.path || e.path === INDEX_FILE_PATH) return;
+   if (!e || !e.path || e.path === INDEX_FILE_PATH) continue;
 
    AwaitableHttpsRequest(URL(e.path), options)
       .then((data) => {
@@ -29,13 +29,12 @@ const Execute = () => {
    AwaitableHttpsRequest(URL(ARTICLES_PATH), options)
       .then((data) => {
          data.forEach(HandleArticleDirectory)
-
-         console.log("FINAL METADATA :: " + metadata);
-         fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
-            if (err) throw err;
-         });
-      })
-
+      });
+   
+   console.log("FINAL METADATA :: " + metadata);
+   fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
+      if (err) throw err;
+   });
 }
 
 const AwaitableHttpsRequest = (url, options) => new Promise((resolve, reject) => {
