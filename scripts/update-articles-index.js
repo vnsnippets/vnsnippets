@@ -23,7 +23,7 @@ const HandleArticleDirectory = (e, index) => {
       body = JSON.parse(body);
       body.forEach((item) => metadata.push(item.name));
       
-      console.log(`Directory: ${e.name} (${body.length})`);
+      console.log(`Directory: ${e.name} (${metadata.length})`);
     });
   });
 }
@@ -41,7 +41,7 @@ const Execute = () => {
       body = JSON.parse(body);
       body.forEach(HandleArticleDirectory);
       
-      fs.writeFile('data/metadata.json', JSON.stringify(metadata), 'utf-8', (err) => {
+      fs.writeFile('data/metadata.json', metadata, 'utf-8', (err) => {
         if (err) throw err;
         console.log('Metadata updated');
       });
