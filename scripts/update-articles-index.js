@@ -34,7 +34,7 @@ const Execute = () => {
 }
 
 const AwaitableHttpsRequest = (url, options) => new Promise((resolve, reject) => {
-   const request = https.get(url, options, (response) => {
+   https.get(url, options, (response) => {
       response.setEncoding('utf8');
       
       let data = "";
@@ -43,14 +43,9 @@ const AwaitableHttpsRequest = (url, options) => new Promise((resolve, reject) =>
       response.on('end', () => {
          resolve(JSON.parse(data))
       });
+   }).on('error', (err) => {
+     reject(err);
    });
-
-   request.on('error', (err) => {
-      reject(err);
-    });
-
-    request.write(data)
-    request.end();
 });
 
 Execute();
