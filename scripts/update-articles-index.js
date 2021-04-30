@@ -16,11 +16,12 @@ const HandleArticleDirectory = (e) => {
 
    AwaitableHttpsRequest(URL(e.path), options)
       .then((data) => {
-         console.log(`Directory - ${e.name} :: ${data.length}`)
-      
          data.forEach((item) => {
             if (item) metadata.push(item.name)
          });
+      
+         console.log(`Directory - ${e.name} :: ${data.length}`)
+         console.log(`Metadata - ${metadata}`)
       });
 }
 
@@ -29,6 +30,7 @@ const Execute = () => {
       .then((data) => {
          data.forEach(HandleArticleDirectory)
 
+         console.log("FINAL METADATA :: " + metadata);
          fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
             if (err) throw err;
          });
