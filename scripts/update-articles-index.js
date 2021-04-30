@@ -16,7 +16,8 @@ const HandleArticleDirectory = (e) => {
 
    AwaitableHttpsRequest(URL(e.path), options)
       .then((data) => {
-         console.log(`Directory - ${item.name} :: ${data.length}`)
+         console.log(`Directory - ${e.name} :: ${data.length}`)
+      
          data.forEach((item) => {
             if (item) metadata.push(item.name)
          });
