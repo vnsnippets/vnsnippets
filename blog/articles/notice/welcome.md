@@ -5,119 +5,236 @@ date: 1619804880
 cover: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
 ---
 
-<picture>
-    <source media="(max-width: 768px)" srcset="../../../assets/cover-dark-portrait.gif">
-    <img style="width: 100%; border-radius: 10px;" src="../../../assets/cover-dark-landscape.gif" alt="animation for a quick intro">
-</picture>
-<p align="center">
-   <a href="https://twitter.com/vhnamah" title="Twitter" rel="nofollow"><img alt="Twitter Link" src="https://img.shields.io/badge/-Twitter-%231d2229?style=for-the-badge&logo=twitter" style="max-width:100%;" /></a>
-   <a href="https://instagram.com/vnsnippets" title="Instagram" rel="nofollow"><img alt="Instagram Link" src="https://img.shields.io/badge/-Instagram-%231d2229?style=for-the-badge&logo=instagram" /></a>
-   <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
-</p>
-
-### 🔥 Skills Unlocked
-![C-Sharp][csharp] ![TypeScript][ts] ![NodeJS][nodejs] ![HTML5][html5] ![CSS3][css3] ![JavaScript][js] ![Python][python] <br/>
-![.NET Standard][.net] ![.NET Core][.net-core] ![ReactJs][react] ![NextJs][nextjs] ![VueJs][vue] ![NuxtJs][nuxtjs] ![ExpressJs][express] ![Django][django] <br/>
-![React Native][react-native] ![Xamarin Forms][xamarin] ![UWP][uwp] <br/>
-![Bootstrap][bootstrap] ![Tailwind CSS][tailwind] <br/>
-![Microsoft Azure][azure] ![Firebase][firebase] ![SQL Server][sqlserver] ![MongoDB][mongodb] <br/>
-![GIT][git] ![Github][github] ![Azure DevOps][azuredevops] ![bitbucket][Bitbucket]
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
 
-### ⚔ Weapons of Choice
-![Microsoft Windows][windows] ![Ubuntu][ubuntu] <br/>
-![Visual Studio][visualstudio] ![Visual Studio Code][vscode] <br/>
-![AdobeXD][adobexd] ![Canva][canva]
+## Horizontal Rules
+
+___
+
+---
+
+***
 
 
-### 📚 Scrolls of Wisdom
-![Markdown][md] ![Gitbook][gitbook]
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
 
 
-<!-- LINKS -->
-<!-- Languages -->
-[csharp]: https://img.shields.io/badge/-C%23-%231d2229?style=for-the-badge&logo=c-sharp
+## Emphasis
 
-[ts]: https://img.shields.io/badge/-TypeScript-%231d2229?style=for-the-badge&logo=typescript
+**This is bold text**
 
-[nodejs]: https://img.shields.io/badge/-Node.JS-%231d2229?style=for-the-badge&logo=node.js
+__This is bold text__
 
-[html5]: https://img.shields.io/badge/-HTML-%231d2229?style=for-the-badge&logo=html5
+*This is italic text*
 
-[css3]: https://img.shields.io/badge/-CSS3-%231d2229?style=for-the-badge&logo=css3
+_This is italic text_
 
-[js]: https://img.shields.io/badge/-JavaScript-%231d2229?style=for-the-badge&logo=javascript
+~~Strikethrough~~
 
-[python]: https://img.shields.io/badge/-Python-%231d2229?style=for-the-badge&logo=python
 
-<!-- Frameworks -->
-[.net]: https://img.shields.io/badge/-.NET%20Standard-%231d2229?style=for-the-badge&logo=.net
+## Blockquotes
 
-[.net-core]: https://img.shields.io/badge/-.NET%20Core-%231d2229?style=for-the-badge&logo=.net
 
-[react]: https://img.shields.io/badge/-React-%231d2229?style=for-the-badge&logo=react
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
 
-[nextjs]: https://img.shields.io/badge/-Next.JS-%231d2229?style=for-the-badge&logo=next.js
 
-[vue]: https://img.shields.io/badge/-Vue.JS-%231d2229?style=for-the-badge&logo=vue.js
+## Lists
 
-[nuxtjs]: https://img.shields.io/badge/-Nuxt.JS-%231d2229?style=for-the-badge&logo=nuxt.js
+Unordered
 
-[express]: https://img.shields.io/badge/-ExpressJS-%231d2229?style=for-the-badge&logo=express
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
 
-[django]: https://img.shields.io/badge/-Django-%231d2229?style=for-the-badge&logo=django
+Ordered
 
-<!-- Mobile and Cross-Platform -->
-[react-native]: https://img.shields.io/badge/-React%20Native-%231d2229?style=for-the-badge&logo=react
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
 
-[xamarin]: https://img.shields.io/badge/-Xamarin%20Forms-%231d2229?style=for-the-badge&logo=xamarin
 
-[uwp]: https://img.shields.io/badge/-UWP-%231d2229?style=for-the-badge&logo=microsoft
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
 
-<!-- CSS Frameworks -->
-[bootstrap]: https://img.shields.io/badge/-Bootstrap-%231d2229?style=for-the-badge&logo=bootstrap
+Start numbering with offset:
 
-[tailwind]: https://img.shields.io/badge/-Tailwind%20CSS-%231d2229?style=for-the-badge&logo=tailwind-css
+57. foo
+1. bar
 
-<!-- Cloud and Infrastructure -->
-[azure]: https://img.shields.io/badge/-Microsoft%20Azure-%231d2229?style=for-the-badge&logo=microsoft-azure
 
-[firebase]: https://img.shields.io/badge/-Firebase-%231d2229?style=for-the-badge&logo=firebase
+## Code
 
-[sqlserver]: https://img.shields.io/badge/-SQL%20Server-%231d2229?style=for-the-badge&logo=microsoft-sql-server
+Inline `code`
 
-[mongodb]: https://img.shields.io/badge/-MongoDB-%231d2229?style=for-the-badge&logo=mongodb
+Indented code
 
-<!-- Version Control -->
-[git]: https://img.shields.io/badge/-GIT-%231d2229?style=for-the-badge&logo=git
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
 
-[github]: https://img.shields.io/badge/-Github-%231d2229?style=for-the-badge&logo=github
 
-[azuredevops]: https://img.shields.io/badge/-Azure%20Devops-%231d2229?style=for-the-badge&logo=azure-devops
+Block code "fences"
 
-[bitbucket]: https://img.shields.io/badge/-Bitbucket-%231d2229?style=for-the-badge&logo=bitbucket
+```
+Sample text here...
+```
 
-<!-- Operating Systems -->
-[windows]: https://img.shields.io/badge/-Windows-%231d2229?style=for-the-badge&logo=windows
+Syntax highlighting
 
-[ubuntu]: https://img.shields.io/badge/-Ubuntu-%231d2229?style=for-the-badge&logo=ubuntu
+``` js
+var foo = function (bar) {
+  return bar++;
+};
 
-<!-- IDEs -->
-[visualstudio]: https://img.shields.io/badge/-Visual%20Studio-%231d2229?style=for-the-badge&logo=visual-studio
+console.log(foo(5));
+```
 
-[vscode]: https://img.shields.io/badge/-VS%20Code-%231d2229?style=for-the-badge&logo=visual-studio-code
+## Tables
 
-<!-- Design Tools -->
-[adobexd]: https://img.shields.io/badge/-Adobe%20XD-%231d2229?style=for-the-badge&logo=adobe-xd
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-[canva]: https://img.shields.io/badge/-Canva-%231d2229?style=for-the-badge&logo=canva
+Right aligned columns
 
-<!-- Documentation -->
-[md]: https://img.shields.io/badge/-Markdown-%231d2229?style=for-the-badge&logo=markdown
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-[gitbook]: https://img.shields.io/badge/-Gitbook-%231d2229?style=for-the-badge&logo=gitbook
 
-<!-- Social Media -->
-[twitter]: https://img.shields.io/badge/-Twitter-%23011627?style=for-the-badge&logo=twitter
+## Links
 
-[instagram]: https://img.shields.io/badge/-Instagram-%23011627?style=for-the-badge&logo=instagram
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
