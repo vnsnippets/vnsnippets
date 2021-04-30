@@ -12,17 +12,17 @@ var options = {
 const metadata = [];
 
 const HandleArticleDirectory = (e) => {
-   if (!e || !e.path || e.path === INDEX_FILE_PATH) continue;
+   if (e && e.path && e.path !== INDEX_FILE_PATH) {
+      AwaitableHttpsRequest(URL(e.path), options)
+         .then((data) => {
+            data.forEach((item) => {
+               if (item) metadata.push(item.name)
+            });
 
-   AwaitableHttpsRequest(URL(e.path), options)
-      .then((data) => {
-         data.forEach((item) => {
-            if (item) metadata.push(item.name)
+            console.log(`Directory - ${e.name} :: ${data.length}`)
+            console.log(`Metadata - ${metadata}`)
          });
-      
-         console.log(`Directory - ${e.name} :: ${data.length}`)
-         console.log(`Metadata - ${metadata}`)
-      });
+   }
 }
 
 const Execute = () => {
