@@ -1,4 +1,4 @@
-import { writeFile } from 'fs';
+const fs = require('fs');
 
 const ARTICLES_PATH = 'data/articles';
 const INDEX_FILE_PATH = 'data/articles/metadata.json';
@@ -31,7 +31,7 @@ const Execute = () => {
          console.log("Metadata update complete.");
       });
 
-   writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
+   fs.writeFile(INDEX_FILE_PATH, JSON.stringify(metadata), 'utf-8', (err) => {
       if (err) throw err;
    });
 }
