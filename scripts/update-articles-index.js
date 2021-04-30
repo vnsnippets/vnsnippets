@@ -1,15 +1,20 @@
 const fs = require('fs');
 const https = require('https');
 
+const USERNAME = 'vnsnippets';
 const INDEXFILE = 'metadata.json';
 const URL = (path) => `https://api.github.com/repos/vnsnippets/vnsnippets/contents/${path}`;
+
+var options = {
+    headers: {'user-agent': 'node.js'}
+};
 
 const metadata = [];
 const HandleArticleDirectory = (e, index) => {
   if (!e || !e.name || e.name === INDEXFILE) return;
   console.log("Directory: " + e.name);
   
-  https.get(URL(e.path), (response) => {
+  https.get(URL(e.path), options, (response) => {
     response.setEncoding('utf8');
     let body = "";
     response.on('data', (data) => body += data);
@@ -26,7 +31,7 @@ const HandleArticleDirectory = (e, index) => {
 const Execute = () => {
   const path = 'data/articles';
   
-  https.get(URL(path), (response) => {
+  https.get(URL(path), options, (response) => {
     response.setEncoding('utf8');
     
     let body = "";
