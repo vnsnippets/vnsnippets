@@ -49,12 +49,12 @@ export default Vue.extend({
    display: flex;
    flex-direction: column;
    justify-content: center;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
+  width: 45px;
+  height: 45px;
+  padding: 12.5px;
   cursor: pointer;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .burger:hover {

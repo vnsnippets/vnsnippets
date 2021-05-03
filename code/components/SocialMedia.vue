@@ -42,7 +42,7 @@ export default Vue.extend({
   color: #fff;
   text-decoration: none;
 
-  padding: 10px;
+  padding: 12px;
   
   transition: background-color ease-in-out 200ms;
 }
