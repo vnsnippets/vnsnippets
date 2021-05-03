@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    You have reached the realm of Lord Snippets
+     You are now viewing Lord Snippet's blog section
   </div>
 </template>
 
