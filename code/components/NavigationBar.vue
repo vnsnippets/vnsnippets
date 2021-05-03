@@ -1,5 +1,6 @@
 <template>
 <nav>   
+   <side-menu :active="this.toggle" />
    <div class="max-w-7xl mx-auto p-4 pb-5">
       <div class="relative items-center">
          <div class="flex items-center justify-between pb-4">
@@ -9,7 +10,7 @@
                <span></span>
                <span></span>
             </a>
-            <social-media />
+            <social-media theme="dark" />
          </div>
          <div class="brand flex">
             <router-link class="mx-auto" to="/">
@@ -26,9 +27,10 @@
 <script lang="ts">
 import Vue from 'vue'
 import SocialMedia from './SocialMedia.vue';
+import SideMenu from './SideMenu.vue';
 
 export default Vue.extend({
-   components: { SocialMedia },
+   components: { SocialMedia, SideMenu },
    data() {
       return { toggle: false }
    },
@@ -55,6 +57,7 @@ export default Vue.extend({
   cursor: pointer;
   align-items: center;
   border-radius: 5px;
+  z-index: 100;
 }
 
 .burger:hover {
