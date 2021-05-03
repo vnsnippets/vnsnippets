@@ -4,28 +4,11 @@
       <div class="relative items-center">
          <div class="flex items-center justify-between pb-4">
             <!-- Mobile menu button-->
-            <div @click="toggleBurger()" aria-controls="mobile-menu" aria-expanded="false">
-               <span class="sr-only">Open main menu</span>
-               <div class="plate" :class="this.toggle ? 'active' : ''">
-                  <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-                     <path class="line line1" d="M 50,35 H 30" />
-                     <path class="line line2" d="M 50,35 H 70" />
-                     <path class="line line3" d="M 50,50 H 30" />
-                     <path class="line line4" d="M 50,50 H 70" />
-                     <path class="line line5" d="M 50,65 H 30" />
-                     <path class="line line6" d="M 50,65 H 70" />
-                  </svg>
-               </div>
-
-               <!-- <svg class="h-6 w-6 burger" :class="this.toggle ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-               </svg> -->
-               
-               <!-- Below SVG is an X for when menu is open -->
-               <!-- <svg class="h-6 w-6 burger" :class="!this.toggle ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-               </svg> -->
-            </div>
+            <a class="burger" :class="this.toggle ? 'active' : 'inactive'" @click="toggleBurger()">
+               <span></span>
+               <span></span>
+               <span></span>
+            </a>
             <social-media />
          </div>
          <div class="brand flex">
@@ -62,90 +45,149 @@ export default Vue.extend({
   font-size: 24px;
 }
 
-.burger.hidden,
-.burger.block {
-   transform: rotateX(360);
-   transition: all ease-in-out 1000ms;
-}
-
-.plate {
-   width: 50px;
-   height: 50px;
-   cursor: pointer;
-   border-radius: 10px;
-   transition: all ease-in-out 250ms;
-}
-
-.plate:hover {
-   background-color: #111827;
-   border-radius: 20px;
-   transition: all ease-in-out 250ms;
-}
-
 .burger {
-   filter: url(#gooeyness);
-   width: 100%;
-   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
 }
 
-.x {
-  transform: scale(0);
-  transition: transform 400ms;
+.burger:hover {
+   transition: all ease-in-out 250ms;
+   background: #111827;
 }
 
-.line {
-  fill: none;
-  stroke: white;
-  stroke-width: 4px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transform-origin: 50%;
-  transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+.burger span {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 2px;
+  background: #fff;
+  transition: all .3s;
+  position: relative;
+  margin: 0;
 }
 
-.x .line {
-  stroke-width: 5.5px;
+.burger.active span:nth-child(1) {
+  animation: ease .7s top forwards;
 }
 
-.active .line {
-  transition: stroke-dasharray 500ms, stroke-dashoffset 500ms, transform 500ms;
+.burger.inactive span:nth-child(1) {
+  animation: ease .7s top-2 forwards;
 }
 
-.active .x {
-  transform: scale(1);
-  transition: transform 400ms 350ms;
+.burger.active span:nth-child(2) {
+  animation: ease .7s scaled forwards;
 }
 
-.plate .x {
-  transition: transform 400ms;
+.burger.inactive span:nth-child(2) {
+  animation: ease .7s scaled-2 forwards;
 }
-.plate .line {
-  transform-origin: 50%;
-  transition: transform 400ms 100ms;
+
+.burger.active span:nth-child(3) {
+  animation: ease .7s bottom forwards;
 }
-.active.plate .line {
-  transition: transform 400ms;
+
+.burger.inactive span:nth-child(3) {
+  animation: ease .7s bottom-2 forwards;
 }
-.active.plate .line1 {
-  transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(.7);
+
+@keyframes top {
+  0% {
+      top: 0;
+      margin-bottom: 5px;
+      transform: rotate(0);
+  }
+  50% {
+     margin: 0;
+     top: 2px;
+    transform: rotate(0);
+  }
+  100% {
+     margin: 0;
+     top: 2px;
+    transform: rotate(45deg);
+  }
 }
-.active.plate .line2 {
-  transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(.7);
+
+@keyframes top-2 {
+  0% {
+     margin-bottom: 0px;
+     top: 2px;
+    transform: rotate(45deg);
+  }
+  50% {
+     margin: 0;
+     top: 2px;
+    transform: rotate(0deg);
+  }
+  100% {
+     margin-bottom: 5px;
+     top: 0px;
+    transform: rotate(0deg);
+  }
 }
-.active.plate .line3 {
-  transform: translateY(0px) rotate(45deg) scale(.7);
+
+@keyframes bottom {
+  0% {
+     bottom: 0px;
+     margin-top: 5px;
+    transform: rotate(0);
+  }
+  50% {
+     bottom: 2px;
+     margin: 0;
+    transform: rotate(0);
+  }
+  100% {
+     bottom: 2px;
+     margin: 0;
+    transform: rotate(135deg);
+  }
 }
-.active.plate .line4 {
-  transform: translateY(0px) rotate(-45deg) scale(.7);
+
+@keyframes bottom-2 {
+  0% {
+     bottom: 2px;
+     margin-top: 0px;
+    transform: rotate(135deg);
+  }
+  50% {
+     bottom: 2px;
+     margin: 0;
+    transform: rotate(0);
+  }
+  100% {
+     margin-top: 5px;
+     bottom: 0px;
+    transform: rotate(0);
+  }
 }
-.active.plate .line5 {
-  transform: translateX(18px) translateY(3px) rotate(45deg) scale(.7);
+
+@keyframes scaled {
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
-.active.plate .line6 {
-  transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(.7);
+
+@keyframes scaled-2 {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-.active.plate .x {
-  transition: transform 400ms 100ms;
-  transform: scale(1);
-}
+
 </style>
