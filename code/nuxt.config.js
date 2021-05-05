@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/fonts/captain-icon.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -66,5 +67,8 @@ export default {
     
     extend (config, ctx) {
     }
+  },
+  router: {
+    linkActiveClass: 'active-link'
   }
 }
