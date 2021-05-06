@@ -1,17 +1,16 @@
 <template>
-      <div class="panel" :class="this.active? 'active' : 'inactive'">
-         <div class="navigation">
-            <router-link to="/blog">Blog</router-link>
-            <router-link to="/about">About</router-link>
+   <div class="sidebar" :class="this.active? 'active' : 'inactive'">
+      <div class="panel">
+         <nuxt-link v-for="e in links" :key="e.name" :to="e.route">{{ e.name }}</nuxt-link>
 
-            <div class="mt-5">
-               <social-media theme="light"></social-media>
-            </div>
-            <div class="motto mt-5">
-               <p>Playground and stuff</p>
-            </div>
+         <div class="my-10">
+            <social-media theme="light"></social-media>
+         </div>
+         <div class="motto">
+            <p>Playground and stuff</p>
          </div>
       </div>
+   </div>
 </template>
 
 <script lang="ts">
@@ -19,14 +18,41 @@ import Vue from 'vue'
 import SocialMedia from './SocialMedia.vue'
 export default Vue.extend({
    components: { SocialMedia },
-   props: [ 'active' ]
+   props: [ 'active' ],
+   data: () => ({
+      links: [
+         { route: "/blog", name: "Blog" },
+         { route: "/about", name: "About" }
+      ]
+   })
 })
 </script>
 
 <style scoped>
-.navigation a {
+.sidebar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.panel a {
    display: block;
-   margin-bottom: 10px;
+}
+
+.panel a:hover {
+   font-weight: 600;
+}
+
+.panel a.active-link {
+   font-weight: 600;
+   pointer-events: none;
+   color: #D1D5DB;
+}
+
+.panel a:not(:last-of-type) {
+   margin-bottom: 15px;
 }
 
 .panel {
@@ -38,24 +64,25 @@ export default Vue.extend({
    position: fixed;
    left: 0;
    top: 0;
-   height: 100vh;
-   z-index: 10;
+   height: 100%;
+   z-index: 99;
    padding: 100px;
    max-width: 560px;
    width: 100%;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    left: -560px;
 }
 
-.panel.inactive {
-   animation: slide-out 2s ease;
+.sidebar.inactive .panel {
+   animation: slide-out 0.5s ease;
    left: -560px;
 }
 
-.panel.active {
-   animation: slide-in 1.5s ease;
+.sidebar.active .panel {
+   animation: slide-in 0.25s ease;
    left: 0;
 }
 
