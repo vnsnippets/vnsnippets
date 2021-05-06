@@ -72,11 +72,15 @@ export default Vue.extend({
    font-size: 1.25em;
 }
 
-.menu-item.active-link:not(.home){
+.menu-item.home.nuxt-link-exact-active {
    background: #111827;
    pointer-events: none;
 }
 
+.menu-item.nuxt-link-active:not(.home){
+   background: #111827;
+   pointer-events: none;
+}
 
 .menu-item:hover {
    background: #111827;
@@ -124,12 +128,12 @@ export default Vue.extend({
 
 /* 
 .menu-item.home,
-.menu-item.active-link.home {
+.menu-item.nuxt-link-active.home {
    background: #10B981;
 }
 
 .menu-item.home:hover,
-.menu-item.active-link.home:hover {
+.menu-item.nuxt-link-active.home:hover {
    background: #34D399;
    transition: all ease-in-out 250ms;
 } */

@@ -35,4 +35,7 @@ export default Vue.extend({
    font-weight: 100;
    font-size: 24px;
 }
+
+.brand:hover .text-gray-200 { color: #9CA3AF; transition: all 200ms ease; }
+.brand:hover .text-gray-600 { color: #E5E7EB; transition: all 200ms ease; }
 </style>
