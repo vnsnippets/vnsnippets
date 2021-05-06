@@ -27,7 +27,7 @@ export default Vue.extend({
 .menu {
    position: fixed;
    height: 100%;
-   z-index: 1;
+   z-index: 100;
    top: 0;
    left: 0;
    overflow-x: hidden;
@@ -39,19 +39,14 @@ export default Vue.extend({
 
 .menu-items {
    border-radius: 0 5px 5px 0px;
-   background: #1F2937;
    overflow: hidden;
-}
-
-.menu-items:hover .label {
-   display: flex;
-   transition: all ease-in-out 200ms;
 }
 
 .menu-item {
    display: flex;
    /* justify-content: center; */
    align-items: center;
+   background: #1F2937;
 }
 
 .menu-item .icon {
@@ -86,6 +81,11 @@ export default Vue.extend({
    pointer-events: none;
 }
 
+.menu-items:hover .label {
+   display: flex;
+   animation: show-labels 250ms ease;
+}
+
 .menu-item:hover {
    background: #111827;
    transition: all ease-in-out 250ms;
@@ -112,9 +112,19 @@ export default Vue.extend({
    transition: all ease-in-out 250ms;
 } */
 
-@keyframes scaled-2 {
-  0% { transform: scale(0); }
-  50% { transform: scale(0); }
-  100% { transform: scale(1); }
+@keyframes show-labels {
+   0% {
+      opacity: 0;
+      margin-left: -60px;
+   }
+
+   60% {
+      opacity: 0%;
+   }
+
+   100% {
+      opacity: 100%;
+      margin-left: 0;
+   }
 }
 </style>
