@@ -33,7 +33,7 @@ export default Vue.extend({
 .brand {
   font-family: 'Merriweather', sans-serif;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .brand:hover .text-gray-200 {
