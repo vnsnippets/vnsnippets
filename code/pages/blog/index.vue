@@ -1,14 +1,13 @@
 <template>
   <div class="container">
-     You are now viewing Lord Snippet's blog section
+    You are now viewing Lord Snippet's blog section
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({
-})
+export default Vue.extend({})
 </script>
 
 <style scoped>

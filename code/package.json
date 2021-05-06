@@ -5,6 +5,7 @@
   "author": "Vidush H. Namah",
   "private": true,
   "scripts": {
+    "clean": "prettier --write \"./**/*.{ts,vue}\"",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",

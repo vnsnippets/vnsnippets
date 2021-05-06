@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Branding from '../components/Branding.vue';
+import Branding from '../components/Branding.vue'
 
 export default Vue.extend({
   components: { Branding }
@@ -22,7 +22,7 @@ export default Vue.extend({
   font-family: 'CaptainIcon';
   font-style: normal;
   font-weight: normal;
-  src: url("~assets/fonts/captain-icon.ttf") format("truetype")
+  src: url('~assets/fonts/captain-icon.ttf') format('truetype');
 }
 
 html {
