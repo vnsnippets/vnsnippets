@@ -25,14 +25,10 @@ export default Vue.extend({
 
 <style scoped>
 .menu {
-   position: fixed;
-   height: 100%;
+   position: fixed;   
    z-index: 100;
-   top: 0;
-   left: 0;
-   overflow-x: hidden;
+   overflow: hidden;
    display: flex;
-   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
@@ -81,10 +77,6 @@ export default Vue.extend({
    pointer-events: none;
 }
 
-.menu-items:hover .label {
-   display: flex;
-   animation: show-labels 250ms ease;
-}
 
 .menu-item:hover {
    background: #111827;
@@ -96,10 +88,40 @@ export default Vue.extend({
    transition: all ease-in-out 200ms;
 }
 
-.menu-item:hover .label {
-   transform: scale(1.05);
-   transition: all ease-in-out 200ms;
+@media only screen and (max-width: 767px) {
+   .menu {
+      width: 100%;
+      bottom: 0;
+   }
+   
+   .menu-items {
+      border-radius: 5px 5px 0px 0px;
+   }
+
+   .menu-item {
+      display: inline-flex;
+   }
 }
+
+@media only screen and (min-width: 768px) {
+   .menu {
+      height: 100%;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+   }
+
+   .menu-items:hover .label {
+      display: flex;
+      animation: show-labels 250ms ease;
+   }
+
+   .menu-item:hover .label {
+      transform: scale(1.05);
+      transition: all ease-in-out 200ms;
+   }
+}
+
 /* 
 .menu-item.home,
 .menu-item.active-link.home {
