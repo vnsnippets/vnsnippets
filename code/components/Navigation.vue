@@ -17,6 +17,7 @@ export default Vue.extend({
       links: [
          { route: "/", name: "Home", icon: "ci-home", class: "home" },
          { route: "/blog", name: "Blog", icon: "ci-pen-nib" },
+         { route: "/projects", name: "Projects", icon: "ci-rocket" },
          { route: "/about", name: "About", icon: "ci-user-alt" }
       ]
    })
@@ -66,6 +67,7 @@ export default Vue.extend({
    color: white;
    align-items: center;
    justify-content: center;
+   letter-spacing: 0.075em;
 }
 
 .icon .cap-icon {
