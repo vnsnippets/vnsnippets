@@ -1,13 +1,8 @@
 <template>
 <div class="menu">
    <div class="menu-items">
-      <!-- <a class="icon burger" :class="this.toggle ? 'active' : 'inactive'" @click="toggleBurger()">
-         <span></span>
-         <span></span>
-         <span></span>
-      </a> -->
-      <nuxt-link v-for="e in links" :key="e.name" class="icon" :to="e.route">
-         <span><i class='cap-icon ci-home'></i></span>
+      <nuxt-link class="menu-item" :class="e.class" v-for="e in links" :key="e.name" :to="e.route">
+         <span class="icon"><i class="cap-icon" :class="e.icon"></i></span>
          <span class="label">{{ e.name }}</span>
       </nuxt-link>
    </div>
@@ -20,8 +15,9 @@ import Vue from 'vue'
 export default Vue.extend({
    data: () => ({
       links: [
-         { route: "/blog", name: "Blog" },
-         { route: "/about", name: "About" }
+         { route: "/", name: "Home", icon: "ci-home", class: "home" },
+         { route: "/blog", name: "Blog", icon: "ci-pen-nib" },
+         { route: "/about", name: "About", icon: "ci-user-alt" }
       ]
    })
 })
@@ -42,152 +38,83 @@ export default Vue.extend({
 }
 
 .menu-items {
-   border-radius: 5px;
+   border-radius: 0 5px 5px 0px;
    background: #1F2937;
    overflow: hidden;
 }
 
-.icon {
+.menu-items:hover .label {
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 50px;
-   height: 50px;
-   padding: 15px;
-   cursor: pointer;
+   transition: all ease-in-out 200ms;
+}
+
+.menu-item {
+   display: flex;
+   /* justify-content: center; */
    align-items: center;
 }
 
-.icon:hover {
+.menu-item .icon {
+   cursor: pointer;
+   color: white;
+   width: 3.5em;
+   height: 3.5em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menu-item .label {
+   font-family: 'Freckle Face', cursive;
+   margin-left: 1em;
+   display: none;
+   font-size: 1.25rem;
+   margin: 0;
+   padding: 0;
+   padding-right: 15px;
+   color: white;
+   align-items: center;
+   justify-content: center;
+}
+
+.icon .cap-icon {
+   font-size: 1.25em;
+}
+
+.menu-item.active-link:not(.home){
+   background: #111827;
+   pointer-events: none;
+}
+
+.menu-item:hover {
    background: #111827;
    transition: all ease-in-out 250ms;
 }
 
-.burger span {
-   display: block;
-   width: 100%;
-   border-radius: 3px;
-   height: 2px;
-   background: #fff;
-   transition: all .3s;
-   position: relative;
-   margin: 0;
+.menu-item:hover .cap-icon {
+   transform: scale(1.15);
+   transition: all ease-in-out 200ms;
 }
 
-.burger.active span:nth-child(1) {
-   animation: ease .7s top forwards;
+.menu-item:hover .label {
+   transform: scale(1.05);
+   transition: all ease-in-out 200ms;
+}
+/* 
+.menu-item.home,
+.menu-item.active-link.home {
+   background: #10B981;
 }
 
-.burger.inactive span:nth-child(1) {
-   animation: ease .7s top-2 forwards;
-}
-
-.burger.active span:nth-child(2) {
-   animation: ease .7s scaled forwards;
-}
-
-.burger.inactive span:nth-child(2) {
-   animation: ease .7s scaled-2 forwards;
-}
-
-.burger.active span:nth-child(3) {
-   animation: ease .7s bottom forwards;
-}
-
-.burger.inactive span:nth-child(3) {
-   animation: ease .7s bottom-2 forwards;
-}
-
-@keyframes top {
-  0% {
-      top: 0;
-      margin-bottom: 5px;
-      transform: rotate(0);
-  }
-  50% {
-     margin: 0;
-     top: 2px;
-    transform: rotate(0);
-  }
-  100% {
-     margin: 0;
-     top: 2px;
-    transform: rotate(45deg);
-  }
-}
-
-@keyframes top-2 {
-  0% {
-     margin-bottom: 0px;
-     top: 2px;
-    transform: rotate(45deg);
-  }
-  50% {
-     margin: 0;
-     top: 2px;
-    transform: rotate(0deg);
-  }
-  100% {
-     margin-bottom: 5px;
-     top: 0px;
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes bottom {
-  0% {
-     bottom: 0px;
-     margin-top: 5px;
-    transform: rotate(0);
-  }
-  50% {
-     bottom: 2px;
-     margin: 0;
-    transform: rotate(0);
-  }
-  100% {
-     bottom: 2px;
-     margin: 0;
-    transform: rotate(135deg);
-  }
-}
-
-@keyframes bottom-2 {
-  0% {
-     bottom: 2px;
-     margin-top: 0px;
-    transform: rotate(135deg);
-  }
-  50% {
-     bottom: 2px;
-     margin: 0;
-    transform: rotate(0);
-  }
-  100% {
-     margin-top: 5px;
-     bottom: 0px;
-    transform: rotate(0);
-  }
-}
-
-@keyframes scaled {
-  50% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
+.menu-item.home:hover,
+.menu-item.active-link.home:hover {
+   background: #34D399;
+   transition: all ease-in-out 250ms;
+} */
 
 @keyframes scaled-2 {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(0); }
+  50% { transform: scale(0); }
+  100% { transform: scale(1); }
 }
 </style>
