@@ -15,6 +15,7 @@ export default Vue.extend({
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 @font-face {
