@@ -1,13 +1,7 @@
 <template>
   <div class="menu">
     <div class="menu-items">
-      <nuxt-link
-        class="menu-item"
-        :class="e.class"
-        v-for="e in links"
-        :key="e.name"
-        :to="e.route"
-      >
+      <nuxt-link class="menu-item" :class="e.class" v-for="e in links" :key="e.name" :to="e.route">
         <span class="icon"><i class="cap-icon" :class="e.icon"></i></span>
         <span class="label">{{ e.name }}</span>
       </nuxt-link>
@@ -63,7 +57,7 @@ export default Vue.extend({
 }
 
 .menu-item .label {
-  font-family: 'Freckle Face', cursive;
+  font-family: 'Luckiest Guy', cursive;
   margin-left: 1em;
   display: none;
   font-size: 1.25rem;
