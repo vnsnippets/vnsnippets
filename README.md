@@ -1,5 +1,5 @@
 <picture>
-    <source media="(max-width: 768px)" srcset="./assets/cover-dark-portrait.gif">
+    <source media="(max-width: 768px)" srcset="https://github.com/vnsnippets/vnsnippets/blob/master/assets/cover-dark-portrait.gif?raw=true">
     <img style="width: 100%; border-radius: 10px;" src="./assets/cover-dark-landscape.gif" alt="animation for a quick intro">
 </picture>
 <p align="center">
