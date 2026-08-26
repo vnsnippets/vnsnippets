@@ -1,6 +1,6 @@
 <picture>
-    <source media="(max-width: 768px)" srcset="https://github.com/vnsnippets/vnsnippets/blob/master/assets/cover-dark-portrait.gif?raw=true">
-    <img style="width: 100%; border-radius: 10px;" src="https://github.com/vnsnippets/vnsnippets/blob/master/assets/cover-dark-portrait.gif?raw=true" alt="animation for a quick intro">
+    <source media="(max-width: 768px)" srcset="https://raw.githubusercontent.com/vnsnippets/vnsnippets/refs/heads/master/assets/cover-dark-portrait.gif">
+    <img style="width: 100%; border-radius: 10px;" src="https://raw.githubusercontent.com/vnsnippets/vnsnippets/refs/heads/master/assets/cover-dark-portrait.gif" alt="animation for a quick intro">
 </picture>
 <p align="center">
    <pre align="center"><span>THE BEST TECHNIQUES ARE PASSED ON BY THE SURVIVORS</span></pre>
